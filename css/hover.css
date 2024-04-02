@@ -1,0 +1,31 @@
+@media (hover: hover) {
+    .car__all:hover::before{
+        left: 0;
+        right: 0;
+    }
+    .filter__item:hover,
+    .filter__item:focus {
+        box-shadow: 0px 4px 6px rgba(38, 46, 43, 0.35);
+    }
+    .filter__item:active {
+        opacity: .7;
+        background-color: var(--color-accent);
+        color: white;
+    }
+    .btn_bg:hover,
+    .btn_bg:focus,
+    .btn_border:hover,
+    .btn_border:focus {
+        opacity: .7;
+    }
+    .btn_bg:active,
+    .btn_bg.active {
+        background-color: transparent;
+        color: var(--color-accent);
+    }
+    .btn_border:active,
+    .btn_border.active{
+        background-color: var(--color-accent);
+        color: white;
+    }
+}

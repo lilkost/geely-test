@@ -1,0 +1,299 @@
+@media (max-width: 1230px) {
+    .car__item-buttons{
+        grid-template-columns: repeat(2, 200px);
+    }
+}
+
+@media (max-width: 1160px) {
+    .title{
+        --textSize: 36px;
+    }
+    .filter__title{
+        margin-bottom: 32px;
+    }
+    .filter {
+        margin-bottom: 60px;
+    }
+    .car__item-title{
+        --textSize: 32px;
+        --paddingBottom: 22px;
+    }
+    .car__item{
+        --padding: 34px 11px 12px 11px;
+    }
+    .car__item-left{
+        align-items: end;
+    }
+    .car__item-old-price {
+        --textSize: 24px;
+        padding-left: 0;
+    }
+    .car__item-new-price{
+        --textSize: 36px;
+        padding-left: 0;
+    }
+    .car__item-description{
+        --textSize: 20px;
+        --marginBottom: 42px;
+        padding-left: 0;
+    }
+    .car__item-buttons {
+        grid-template-columns: repeat(2, 180px);
+    }
+    .btn{
+        letter-spacing: 0;
+        padding: 16px 6px;
+    }
+    .car__item-list{
+        right: -40px;
+        padding-top: 0;
+    }
+    .car__item-list-item:not(:last-child){
+        margin-bottom: 32px;
+    }
+    .car__thumbs{
+        max-width: 295px;
+    }
+    .car__thumb picture{
+        height: 45px;
+    }
+    .car__slider{
+        margin-right: 0;
+    }
+    .car__slide picture {
+        display: block;
+        width: 284px;
+        position: relative;
+    }
+    .car__item{
+        background-position: calc(100% - 11px) 12px;
+    }
+    .car__slider{
+        margin-bottom: 15px;
+        position: relative;
+        top: -10px;
+    }
+    .car__item-list-info{
+        --textSize: 14px;
+        line-height: 16.8px;
+    }
+    .car__item-list{
+        width: 204px;
+    }
+    .car__item{
+        align-items: end;
+    }
+    .car__form{
+        padding-left: 8px;
+        position: relative;
+        top: -7px;
+    }
+    .car__item-left{
+        position: relative;
+        top: -6px;
+    }
+    .car__item-old-price{
+        padding-bottom: 19px;
+    }
+    .car__item-new-price{
+        padding-bottom: 18px;
+    }
+    .car__item:not(:last-child){
+        margin-bottom: 30px;
+    }
+    .car__list{
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .car__item-list{
+        right: 0;
+    }
+    .car__item-left{
+        gap: 20px;
+    }
+    .car__item-buttons{
+        grid-template-columns: 1fr;
+        grid-row-gap: 10px;
+    }
+    .car__item-right{
+        max-width: max-content;
+    }
+    .car__item-new-price {
+        --textSize: 28px;
+    }
+}
+
+@media (max-width: 900px) {
+    .car__item{
+        flex-direction: column;
+        align-items: start;
+        background-position: 100% 0;
+    }
+    .car__item-left,
+    .car__slider,
+    .car__form{
+        top: 0;
+    }
+    .car__slider{
+        order: 1;
+    }
+    .car__form{
+        order: 3;
+        margin-bottom: 0;
+    }
+    .car__thumbs{
+        order: 2;
+        margin-bottom: 16px;
+    }
+    .car__item-left {
+        align-items: center;
+        width: 100%;
+        max-width: 100%;
+    }
+    .car__item-info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .car__item-right{
+        margin: 0 auto;
+    }
+    .car__thumbs{
+        max-width: 450px;
+    }
+    .car__thumb picture{
+        height: 70px;
+    }
+    .car__slider{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .car__slide picture {
+        width: 100%;
+    }
+    .car__item-right{
+        align-items: center;
+        gap: 20px;
+    }
+    .car__item-list{
+        max-width: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .filter__form{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .filter__form{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .main{
+        padding-top: 100px;
+    }
+    .title {
+        --textSize: 24px;
+    }
+    .container{
+        --paddingX: 22px;
+    }
+    .filter__title {
+        margin-bottom: 20px;
+    }
+    .filter__item-text{
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .filter {
+        margin-bottom: 40px;
+    }
+    .car__item-title{
+        --textSize: 20px;
+        padding-bottom: 2px;
+    }
+    .car__item {
+        --padding: 5px 11px 12px 11px;
+    }
+
+    .car__slider {
+        max-width: 77%;
+        margin-bottom: 17px;
+    }
+    .car__item-right {
+        gap: 0;
+        margin-bottom: 24px;
+    }
+    .car__thumb picture {
+        height: 40px;
+    }
+    .car__form-item {
+        width: 20px;
+        height: 20px;
+    }
+    .car__form {
+        padding-left: 0;
+    }
+    .car__item-old-price{
+        --textSize: 16px;
+        padding-left: 5px;
+        line-height: 19.3px;
+        padding-bottom: 5px;
+    }
+    .car__item-new-price {
+        --textSize: 25px;
+        line-height: 36px;
+        padding-left: 5px;
+        letter-spacing: -0.02em;
+        padding-bottom: 5px;
+    }
+    .car__item-description{
+        --textSize: 16px;
+        line-height: 18px;
+        padding-left: 5px;
+        --marginBottom: 25px;
+    }
+    .car__item-list {
+        padding-inline: 6px;
+    }
+    .car__item-icon {
+        width: 24px;
+        height: 24px;
+    }
+    .car__item-icon img {
+        width: 80%;
+        height: 80%;
+        object-fit: cover;
+    }
+    .car__item-list-info{
+        --textSize: 9px;
+        line-height: 10.4px;
+        font-weight: 400;
+    }
+    .car__item-list-item {
+        gap: 7px;
+    }
+    .car__item-list-item:not(:last-child){
+        margin-bottom: 0;
+    }
+    .car__item-list{
+        grid-gap: 14px 9px;
+        margin-bottom: 20px;
+    }
+    .btn{
+        padding: 12px 6px;
+        font-size: 12px;
+        line-height: 14.52px;
+    }
+    .car__item-buttons {
+        max-width: calc(100% - 10px);
+        margin: 0 auto;
+        width: 100%;
+    }
+}
