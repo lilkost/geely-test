@@ -1,4 +1,4 @@
-import { useDynamicAdapt } from '/js/dynamicAdapt.js'
+import { useDynamicAdapt } from './js/dynamicAdapt.js'
 
 useDynamicAdapt()
 
